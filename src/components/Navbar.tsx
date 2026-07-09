@@ -3,15 +3,15 @@ function Navbar() {
     <div id="Navbar">
       <div id="left_container">
         <div id="logo">Logo</div>
-        <div id="left_container_company_name">EyExplore</div>
+        <div id="left_container_company_name">EyeXplore - EyExplore</div>
       </div>
 
         <div id="right_container">
-<div id="first_button">Profile</div>
-<div id="second_button">Trips</div>
-<div id="third_button">Find my way</div>
-<div id="fourth_button">Challenge</div>
-<div id="fifth_button"> 
+<div class="first_button all_the_buttons">Profile</div>
+<div class="second_button all_the_buttons">Trips</div>
+<div  class="third_button all_the_buttons">Find my way</div>
+<div  class="fourth_button all_the_buttons">Challenge</div>
+<div  class="fifth_button all_the_buttons"> 
   <div id="fifth_button_text">Sign in</div>
 </div>
 </div>
@@ -20,3 +20,9 @@ function Navbar() {
   )
 }
 export default Navbar 
+/*tre sa mai fac o casuta cu language
+prima pagina e de welcome 
+poze chestii
+poate gasesc eu un model ceva 
+tre sa incerc sa fac logo 
+*/
